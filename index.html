@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Arman's developer portfolio — data, AI and software projects."
+    />
+    <title>Arman — Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="scroll-progress"></div>
+    <div class="bg-grid"></div>
+    <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+    <header class="nav">
+      <a class="logo" href="#home">A<span>.</span></a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="#contact">Let’s talk <span>↗</span></a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">
+            <span class="dot"></span> Open to opportunities
+          </div>
+          <h1>Building useful things with <em>data, AI & code.</em></h1>
+          <p class="hero-text">
+            I'm Arman Kamble, a developer and data-focused student who enjoys
+            turning messy problems into clean, practical products.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#projects"
+              >View my work <span>↓</span></a
+            >
+            <a class="button secondary" href="#contact"
+              >Get in touch <span>↗</span></a
+            >
+          </div>
+          <div class="social-row">
+            <a href="https://github.com/" target="_blank" rel="noreferrer"
+              >GitHub ↗</a
+            >
+          </div>
+        </div>
+        <div class="hero-card reveal tilt-card">
+          <div class="terminal-top">
+            <span></span><span></span><span></span><b>arman.dev</b>
+          </div>
+          <div class="terminal">
+            <p>
+              <span class="muted">01</span> <span class="pink">const</span>
+              <span class="blue">developer</span> = {
+            </p>
+            <p>
+              <span class="muted">02</span>&nbsp;&nbsp;focus:
+              <span class="green">"AI + Data"</span>,
+            </p>
+            <p>
+              <span class="muted">03</span>&nbsp;&nbsp;languages: [<span
+                class="green"
+                >"C++"</span
+              >, <span class="green">"Python"</span>,
+              <span class="green">"SQL"</span>],
+            </p>
+            <p>
+              <span class="muted">04</span>&nbsp;&nbsp;build:
+              <span class="green">"real products"</span>,
+            </p>
+            <p>
+              <span class="muted">05</span>&nbsp;&nbsp;learning:
+              <span class="green">true</span>
+            </p>
+            <p><span class="muted">06</span> };</p>
+            <div class="cursor"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about reveal">
+        <div class="section-label">01 / ABOUT</div>
+        <div class="two-col">
+          <h2>Curious by default.<br /><span>Practical by choice.</span></h2>
+          <div>
+            <p class="large">
+              I like working where software meets data. My projects explore SQL,
+              analytics, automation and LLM-powered interfaces.
+            </p>
+            <p>
+              Right now I'm sharpening my foundations in programming and data
+              while building portfolio projects that solve concrete problems—not
+              just demos that look good.
+            </p>
+            <div class="stats">
+              <div><strong>01</strong><span>AI + SQL project</span></div>
+              <div><strong>∞</strong><span>Things left to learn</span></div>
+              <div><strong>24/7</strong><span>Builder mindset</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section reveal">
+        <div class="section-label">02 / TOOLKIT</div>
+        <div class="section-head">
+          <h2>Tools I <span>work with.</span></h2>
+          <p>A growing toolkit focused on software, data and analytics.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="num">01</span>
+            <h3>Programming</h3>
+            <p>C++ · Python · JavaScript</p>
+          </article>
+          <article>
+            <span class="num">02</span>
+            <h3>Data</h3>
+            <p>SQL · Pandas · NumPy · Excel</p>
+          </article>
+          <article>
+            <span class="num">03</span>
+            <h3>Analytics</h3>
+            <p>Power BI · Dashboards · Data storytelling</p>
+          </article>
+          <article>
+            <span class="num">04</span>
+            <h3>AI / LLM</h3>
+            <p>Natural-language interfaces · AI data products</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects reveal">
+        <div class="section-label">03 / SELECTED WORK</div>
+        <div class="section-head">
+          <h2>Projects that <span>matter.</span></h2>
+          <p>
+            A few things I've been building to turn ideas into working software.
+          </p>
+        </div>
+        <article class="project featured">
+          <div class="project-number">01</div>
+          <div class="project-body">
+            <div class="tag">AI · SQL · REACT</div>
+            <h3>Natural Language → SQL</h3>
+            <p>
+              Ask questions about an uploaded dataset in plain English and turn
+              them into executable SQL queries. The project connects an
+              LLM-powered query layer with a data workflow so users can explore
+              data without writing SQL manually.
+            </p>
+            <div class="chips">
+              <span>Python</span><span>SQL</span><span>LLM</span
+              ><span>CSV</span>
+            </div>
+            <a
+              class="project-link"
+              href="https://github.com/"
+              target="_blank"
+              rel="noreferrer"
+              >View project on GitHub ↗</a
+            >
+          </div>
+          <div class="project-visual">
+            <div class="query-box">
+              <small>USER QUERY</small>
+              <p>“Show average amount by category.”</p>
+              <hr />
+              <small>GENERATED SQL</small
+              ><code
+                >SELECT category,<br />AVG(amount)<br />FROM details<br />GROUP
+                BY category;</code
+              >
+            </div>
+          </div>
+        </article>
+        <div class="project-list">
+          <article class="project featured">
+            <div class="project-number">02</div>
+            <div class="project-body">
+              <div class="tag">AUTH · BOOKING</div>
+              <h3>WanderLust</h3>
+              <p>
+                An online property rental platform where hosts list stays and
+                travelers browse, sign up, and book. Built end to end with a
+                responsive frontend and session-based auth handling access
+                across the listing and booking flows.
+              </p>
+              <div class="chips">
+                <span>MongoDB</span><span>Express.js</span>
+                <span>Node.js</span>
+              </div>
+              <a
+                class="project-link"
+                href="https://github.com/Addy202005/WanderLust"
+                target="_blank"
+                rel="noreferrer"
+                >View project on GitHub ↗</a
+              >
+            </div>
+            <div class="project-visual">
+              <div class="query-box">
+                <small>LISTING</small>
+                <p>“Cozy Lakeside Cabin, Lonavala.”</p>
+                <hr />
+                <small>BOOKING STATUS</small
+                ><code
+                  >Host: Aditya<br />Nights: 3<br />Guests: 2<br />Status:
+                  Confirmed</code
+                >
+              </div>
+            </div>
+          </article>
+          <article class="mini-project">
+            <span>03</span>
+            <div>
+              <div class="tag">SOFTWARE</div>
+              <h3>More projects coming soon</h3>
+              <p>Building and testing the next set of practical projects.</p>
+            </div>
+            <a href="#contact">↗</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- <section id="experience" class="section experience">
+      <div class="section-label">04 / EXPERIENCE</div>
+      <div class="experience-card">
+        <div class="timeline-date">2027<br><span>6 MONTHS</span></div>
+        <div>
+          <div class="tag">BUSINESS INTELLIGENCE · INTERNSHIP</div>
+          <h2>Business Intelligence Intern</h2>
+          <p class="company">Pilgrim</p>
+          <p>Working full-time on data and business intelligence problems, with a focus on SQL, analytics, dashboards and data-driven workflows.</p>
+          <div class="chips"><span>SQL</span><span>Python</span><span>Analytics</span><span>BI</span></div>
+        </div>
+      </div>
+    </section> -->
+
+      <section class="section education reveal">
+        <div class="section-label">05 / EDUCATION</div>
+        <div class="edu-row">
+          <div>
+            <h2>Computer Engineering Student</h2>
+            <p>
+              Building strong foundations in programming, data structures &
+              algorithms, databases and software development.
+            </p>
+          </div>
+          <div class="edu-mark">VCET</div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact reveal">
+        <div class="section-label">06 / CONTACT</div>
+        <h2>Have a problem worth<br /><em>building?</em></h2>
+        <p>
+          I'm always interested in interesting projects, internships and
+          opportunities to learn.
+        </p>
+        <a class="contact-mail" 
+          >Email : kaddy20022005@gmail.com</a
+        >
+        <p>Mobile No. 9152865979</p>
+        <div class="contact-bottom">
+          <span>© 2026 Arman</span>
+          <span>Made with curiosity + code.</span>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
